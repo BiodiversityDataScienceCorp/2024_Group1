@@ -1,1 +1,2 @@
-## Data for our species from GBIF
+## Data folder for our species
+# from GBIF
