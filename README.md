@@ -10,4 +10,4 @@ species:
 
 **Kacie:** My favorite species at the moment are otters. They're intelligent, semi-tool users, adorable, have really cool sleeping behaviors, are keystone species, and have super-dense fur that make them waterproof! Also have been into red pandas lately. Both are all over my Instagram feed :)
 
-![alt text](otter.jpg)
+![Otter](otter.jpg)
