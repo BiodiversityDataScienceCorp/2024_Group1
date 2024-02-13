@@ -2,9 +2,11 @@
 
 **Greta Berg, Kennedie Dolton, Kacie Lau, Elise Son**
 
-species:
+species: red tree vole
 
 ## Our favorite species
+
+**Kennedie:** One of my favorite species is the regular garden snail! I have always liked them and starting from when I was a toddler, every time I saw a snail crossing a path I would move them over to the other side so they didn't get trampled. They're great!
 
 **Greta:** My favorite species is the black bear because they can climb trees and they eat berries. You can see them camping in the woods and its alarming, but not as alarming as seeing a grizzly bear. They are so cute and I wish I could give one a hug but that would most likely go poorly.
 
