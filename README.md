@@ -2,7 +2,7 @@
 
 **Greta Berg, Kennedie Dolton, Kacie Lau, Elise Son**
 
-species:
+species: red tree vole
 
 ## Our favorite species
 
