@@ -12,7 +12,7 @@ species: red tree vole
 
 
 **Kacie:** My favorite species at the moment are otters. They're intelligent, semi-tool users, adorable, have really cool sleeping behaviors, are keystone species, and have super-dense fur that make them waterproof! Also have been into red pandas lately. Both are all over my Instagram feed :)
-![Otter](otter.jpg)
+![Otter](Images/otter.jpg)
 
 
 **Elise** My favorite species are puffer fish. I remember swimming in the ocean in Mexico and putting my head under water to come face to face with one. I love how silly and square they look when not blown up. They are also the most poisonous fish in the see but I just want to go up and give them a little kiss on the head.
