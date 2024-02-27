@@ -34,7 +34,7 @@ map <- leaflet() |>
 
 
 #made the map
-map |>
+map <- map |>
   addProviderTiles("Esri.WorldTopoMap") |>
   addCircleMarkers(data = data,
                    lat = ~decimalLatitude,
