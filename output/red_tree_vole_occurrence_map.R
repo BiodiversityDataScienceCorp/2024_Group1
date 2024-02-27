@@ -1,3 +1,4 @@
+# install packages
 
 install.packages("leaflet")
 library(leaflet)
@@ -11,20 +12,21 @@ library(tidyverse)
 install.packages("magrittr")
 library(magrittr)
 
+# read the data
 
 data <- read.csv("data/cleanedData.csv")
 
 
+# create map
 
-
-map <- leaflet() %>% 
-  addProviderTiles("Esri.WorldTopoMap") %>% 
+map<- leaflet() %>%
+  addProviderTiles("Esri.WorldTopoMap") %>%
   addCircleMarkers(data = data,
                    lat = ~decimalLatitude,
                    lng = ~decimalLongitude,
                    radius = 3,
                    color = "maroon",
-                   fill = 0.3) %>% 
+                   fill = 0.3) %>%
   addLegend(position = "topright",
             title = "Species Occurrences",
             labels = "Red tree vole",
