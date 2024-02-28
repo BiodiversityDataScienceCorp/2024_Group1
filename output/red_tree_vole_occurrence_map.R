@@ -48,7 +48,7 @@ map <- map |>
             colors = "pink",
             opacity = 0.3)
 
-
+map
 
 
 #save the map
