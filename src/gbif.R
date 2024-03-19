@@ -3,16 +3,9 @@
 packages<-c("tidyverse", "rgbif", "usethis", "CoordinateCleaner", "leaflet", "mapview", "magrittr", "webshot2")
 
 # install packages
+#see packages.R in src folder
 
-installed_packages<-packages %in% rownames(installed.packages())
-if(any(installed_packages==FALSE)){
-  install.packages(packages[!installed_packages])
-}
-
-# loading packages through library function
-
-invisible(lapply(packages, library, character.only=TRUE))
-
+#setting up environment
 usethis::edit_r_environ()
 
 # setting up data from GBIF
