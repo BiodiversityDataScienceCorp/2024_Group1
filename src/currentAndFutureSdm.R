@@ -167,6 +167,13 @@ ggplot() +
        x = "longitude",
        y = "latitude",
        fill = "Environmental Suitability")+ 
+  theme(plot.title = element_text(hjust=0.2))+
+  labs(caption = "Figure 2: Maxent Species Distribution Model of the Red Tree Vole (Arborius longicaudus). 
+       This species is mostly detected in western Oregon and very northwestern California, however suitable habitat
+       extends into southwestern Washington. Occurrence data was downloaded from GBIF on 03/19/2024
+       (doi:https://www.gbif.org/species/2437931) and available on GitHub
+       (https://github.com/BiodiversityDataScienceCorp/2024_Group1/tree/main/maxent_outputs).")+ 
+  theme(plot.caption = element_text(hjust=0.2))+
   theme(legend.box.background=element_rect(),legend.box.margin=margin(5,5,5,5)) 
 
 # save to file
@@ -191,8 +198,9 @@ futureClimateRaster <- cmip6_world("CNRM-CM6-1", "585", "2061-2080", var = "bioc
 # rename data sets to match
 names(futureClimateRaster)=names(currentClimRasterStack)
 
-# bump up bounding box
-predictExtent <- 6 * geographicExtent 
+
+# bump up our bounding box
+predictExtent <- 2.5 * geographicExtent
 
 # crop geographic area
 geographicAreaFutureC6 <- crop(futureClimateRaster, predictExtent)
@@ -205,6 +213,8 @@ arborimusFutureSDM <- raster::predict(arborimusCurrentSDM, geographicAreaFutureC
 
 # 9. Plot the future SDM
 
+# get world boundaries
+wrld <- ggplot2::map_data("world")
 
 arborimusFutureSDMDf <- as.data.frame(arborimusFutureSDM, xy=TRUE)
 
@@ -224,10 +234,18 @@ ggplot() +
   scale_size_area() +
   borders("state") +
   borders("world", colour = "black", fill = NA) + 
-  labs(title = "Future SDM of Arborimus longicaudus Under CMIP6 Climate Conditions",
+  labs(title = "Future SDM of Arborimus longicaudus
+       Under CMIP6 Climate Conditions",
        x = "longitude",
        y = "latitude",
        fill = "Env Suitability") +
+  theme(plot.title = element_text(hjust=0.2))+
+  labs(caption = "Figure 2: Future Maxent Species Distribution Model of the Red Tree Vole (Arborius longicaudus). 
+       A distribution map of this species' suitable habitat calculated 50 years into the future. 
+       Occurrence data was downloaded from GBIF on 03/19/2024
+       (doi:https://www.gbif.org/species/2437931) and available on GitHub
+       (https://github.com/BiodiversityDataScienceCorp/2024_Group1/tree/main/maxent_outputs).")+ 
+  theme(plot.caption = element_text(hjust=0.2))+
   theme(legend.box.background=element_rect(),legend.box.margin=margin(5,5,5,5)) 
 
 # save to file
