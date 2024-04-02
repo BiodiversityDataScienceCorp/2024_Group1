@@ -130,7 +130,7 @@ arborimusCurrentSDM <- dismo::maxent(x = presenceAbsenceEnvDf, ## env conditions
 
 
 # bump up our bounding box
-predictExtent <- 3 * geographicExtent 
+predictExtent <- 6 * geographicExtent 
 
 # crops the geographic area
 geographicArea <- crop(currentClimRasterStack, predictExtent, snap = "in")
@@ -148,10 +148,10 @@ wrld <- ggplot2::map_data("world")
 
 
 # create bounding box
-xmax <- max(arborimusPredictDf$x)
-xmin <- min(arborimusPredictDf$x)
-ymax <- max(arborimusPredictDf$y)
-ymin <- min(arborimusPredictDf$y)
+xmax <- -115
+xmin <- -126
+ymax <- 50
+ymin <- 30
 
 # create map
 ggplot() +
