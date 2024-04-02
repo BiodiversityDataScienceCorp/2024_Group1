@@ -200,11 +200,10 @@ names(futureClimateRaster)=names(currentClimRasterStack)
 
 
 # bump up our bounding box
-predictExtent <- 2.5 * geographicExtent
+predictExtent <- 6 * geographicExtent
 
 # crop geographic area
 geographicAreaFutureC6 <- crop(futureClimateRaster, predictExtent)
-
 
 # 8. Run the future SDM
 
@@ -219,10 +218,10 @@ wrld <- ggplot2::map_data("world")
 arborimusFutureSDMDf <- as.data.frame(arborimusFutureSDM, xy=TRUE)
 
 # create bounding box
-xmax <- max(arborimusFutureSDMDf$x)
-xmin <- min(arborimusFutureSDMDf$x)
-ymax <- max(arborimusFutureSDMDf$y)
-ymin <- min(arborimusFutureSDMDf$y)
+xmax <- -115
+xmin <- -126
+ymax <- 50
+ymin <- 30
 
 # create map
 ggplot() +
