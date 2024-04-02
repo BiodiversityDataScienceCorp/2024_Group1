@@ -168,7 +168,7 @@ ggplot() +
        y = "latitude",
        fill = "Environmental Suitability")+ 
   theme(plot.title = element_text(hjust=0.2))+
-  labs(caption = "Figure 2: Maxent Species Distribution Model of the Red Tree Vole (Arborius longicaudus). 
+  labs(caption = "Figure 1: Maxent Species Distribution Model of the Red Tree Vole (Arborius longicaudus). 
        This species is mostly detected in western Oregon and very northwestern California, however suitable habitat
        extends into southwestern Washington. Occurrence data was downloaded from GBIF on 03/19/2024
        (doi:https://www.gbif.org/species/2437931) and available on GitHub
