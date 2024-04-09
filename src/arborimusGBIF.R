@@ -1,7 +1,3 @@
-# list of packages
-
-packages<-c("tidyverse", "rgbif", "usethis", "CoordinateCleaner", "leaflet", "mapview", "magrittr", "webshot2")
-
 # install packages
 #see packages.R in src folder
 

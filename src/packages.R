@@ -1,5 +1,3 @@
-
-
 #list of packages
 packages<-c("tidyverse", 
             "rgbif", 
