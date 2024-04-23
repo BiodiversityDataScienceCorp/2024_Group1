@@ -2,6 +2,9 @@
 
 **Greta Berg, Kennedie Dolton, Kacie Lau, Elise Son**
 
+[![DOI](https://zenodo.org/badge/753713754.svg)](https://zenodo.org/doi/10.5281/zenodo.11051253)
+
+
 species: red tree vole
 ![Red-Tree-Vole](Images/Red-Tree-Vole.jpg)
 
