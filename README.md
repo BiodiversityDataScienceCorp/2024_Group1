@@ -3,6 +3,10 @@
 **Greta Berg, Kennedie Dolton, Kacie Lau, Elise Son**
 
 species: red tree vole
+![Red-Tree-Vole](Images/Red-Tree-Vole.jpg)
+
+Photo Credit: Photo taken by Michael Durham posted on the Oregon Conservation Strategy website.
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.oregonconservationstrategy.org%2Fstrategy-species%2Fred-tree-vole%2F&psig=AOvVaw3C2Emu5FXaqqLeOcjwUGAH&ust=1713986371263000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCLCuwPqG2YUDFQAAAAAdAAAAABAJ
 
 ## Our favorite species
 
